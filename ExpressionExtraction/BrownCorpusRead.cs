@@ -46,7 +46,7 @@ namespace ExpressionExtraction
         private void WriteDocumentToFile()
         {
             System.IO.StreamWriter file =
-              new System.IO.StreamWriter("test" + filePath);
+              new System.IO.StreamWriter("out" + filePath);
             file.WriteLine(entireDocument);
             file.Flush();
             file.Close();
