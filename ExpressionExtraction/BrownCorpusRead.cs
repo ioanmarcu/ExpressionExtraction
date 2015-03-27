@@ -189,7 +189,7 @@ namespace ExpressionExtraction
         private void WriteToFile()
         {
             System.IO.StreamWriter file =
-               new System.IO.StreamWriter("abb.txt");
+               new System.IO.StreamWriter("abbrev.txt");
             foreach (KeyValuePair<string, List<string>> abbreviation in abbreviations)
             {
                  file.Write(abbreviation.Key + " : " );
